@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 
 const listItem = props => (
   <TouchableOpacity onPress={props.onItemPressed}>
@@ -20,7 +20,9 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   placeImage: {
-    marginRight: 8
+    marginRight: 8,
+    height: 30,
+    width: 30
   }
 });
 
